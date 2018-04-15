@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.7.1)
+  - OpenCV (3.3.1)
   - Realm (3.3.2):
     - Realm/Headers (= 3.3.2)
   - Realm/Headers (3.3.2)
@@ -9,16 +10,18 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - OpenCV
   - Realm
   - RxCocoa
   - RxSwift
 
 SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  OpenCV: d81447860f038d60723084aa02ecc963f95c55fa
   Realm: d927fbf66df5532cfafc08afb5f7e53ded37b894
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
   RxSwift: e49536837d9901277638493ea537394d4b55f570
 
-PODFILE CHECKSUM: 0b79bb9bf334e101a698ee8bfaa829d100a0139d
+PODFILE CHECKSUM: e5a6a9ad1598414baded4f1f217837b74112ae2a
 
 COCOAPODS: 1.4.0

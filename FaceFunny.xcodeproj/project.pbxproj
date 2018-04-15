@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C8A0C5A2083C01C0093783C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C592083C01C0093783C /* CoreMedia.framework */; };
+		2C8A0C5C2083C0230093783C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C5B2083C0230093783C /* CoreVideo.framework */; };
+		2C8A0C5E2083C0310093783C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C5D2083C0310093783C /* AssetsLibrary.framework */; };
+		2C8A0C602083C0920093783C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C5F2083C0920093783C /* AVFoundation.framework */; };
+		2C8A0C622083C1110093783C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C612083C1110093783C /* AVKit.framework */; };
+		2C8A0C642083C1E20093783C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C632083C1E20093783C /* libc++.tbd */; };
+		2C8A0C672083C2110093783C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C652083C2110093783C /* CoreGraphics.framework */; };
+		2C8A0C682083C2110093783C /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8A0C662083C2110093783C /* CoreImage.framework */; };
 		2CE254382083B4830046AC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE254372083B4830046AC49 /* AppDelegate.swift */; };
 		2CE2543A2083B4830046AC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE254392083B4830046AC49 /* ViewController.swift */; };
 		2CE2543D2083B4830046AC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2543B2083B4830046AC49 /* Main.storyboard */; };
@@ -39,6 +47,14 @@
 /* Begin PBXFileReference section */
 		016BBBB880425302614DAD7D /* Pods-FaceFunnyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceFunnyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceFunnyTests/Pods-FaceFunnyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CFF3BCC02918157A67B0993 /* Pods-FaceFunnyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceFunnyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceFunnyTests/Pods-FaceFunnyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C8A0C592083C01C0093783C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2C8A0C5B2083C0230093783C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2C8A0C5D2083C0310093783C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2C8A0C5F2083C0920093783C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2C8A0C612083C1110093783C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		2C8A0C632083C1E20093783C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2C8A0C652083C2110093783C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C8A0C662083C2110093783C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		2CE254342083B4830046AC49 /* FaceFunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE254372083B4830046AC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE254392083B4830046AC49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8A0C672083C2110093783C /* CoreGraphics.framework in Frameworks */,
+				2C8A0C682083C2110093783C /* CoreImage.framework in Frameworks */,
+				2C8A0C642083C1E20093783C /* libc++.tbd in Frameworks */,
+				2C8A0C622083C1110093783C /* AVKit.framework in Frameworks */,
+				2C8A0C602083C0920093783C /* AVFoundation.framework in Frameworks */,
+				2C8A0C5E2083C0310093783C /* AssetsLibrary.framework in Frameworks */,
+				2C8A0C5C2083C0230093783C /* CoreVideo.framework in Frameworks */,
+				2C8A0C5A2083C01C0093783C /* CoreMedia.framework in Frameworks */,
 				83470830DBDE1E4B61802336 /* Pods_FaceFunny.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +169,14 @@
 		CAC16935B4C445DDAE804493 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C8A0C652083C2110093783C /* CoreGraphics.framework */,
+				2C8A0C662083C2110093783C /* CoreImage.framework */,
+				2C8A0C632083C1E20093783C /* libc++.tbd */,
+				2C8A0C612083C1110093783C /* AVKit.framework */,
+				2C8A0C5F2083C0920093783C /* AVFoundation.framework */,
+				2C8A0C5D2083C0310093783C /* AssetsLibrary.framework */,
+				2C8A0C5B2083C0230093783C /* CoreVideo.framework */,
+				2C8A0C592083C01C0093783C /* CoreMedia.framework */,
 				6697F66EC41CD40F133687DF /* Pods_FaceFunny.framework */,
 				F90CD51F6F1262E2150E8DB0 /* Pods_FaceFunnyTests.framework */,
 				2CF73DB56CAF395BD02CF98F /* Pods_FaceFunnyUITests.framework */,
@@ -423,6 +455,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FaceFunny/Pods-FaceFunny-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/OpenCV/opencv2.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -430,6 +463,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/opencv2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -638,6 +672,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGXXBSPSUH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceFunny/Libs",
+				);
 				INFOPLIST_FILE = FaceFunny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vqbach.FaceFunny;
@@ -654,6 +692,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGXXBSPSUH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceFunny/Libs",
+				);
 				INFOPLIST_FILE = FaceFunny/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vqbach.FaceFunny;

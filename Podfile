@@ -10,6 +10,7 @@ target 'FaceFunny' do
   pod 'RxCocoa'
   pod 'Realm'
   pod 'Alamofire'
+  pod 'OpenCV'
   target 'FaceFunnyTests' do
     inherit! :search_paths
     # Pods for testing
